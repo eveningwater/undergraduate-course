@@ -1,8 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar.mts'
 
+const base = process.env.NODE_ENV === 'development' ? '/' : '/undergraduate-course/'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base,
+  outDir: './dist',
   title: "我的大学课程文档",
   description: "我的大学课程文档",
   themeConfig: {
