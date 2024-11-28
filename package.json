@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "release": "gh-pages -d dist",
+    "deploy": "npm run docs:build && npm run release"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "gh-pages": "^6.2.0",
+    "glob": "^11.0.0",
+    "vitepress": "^1.5.0"
+  }
+}
