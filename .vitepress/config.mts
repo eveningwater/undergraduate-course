@@ -9,6 +9,7 @@ export default defineConfig({
   title: "我的大学课程文档",
   description: "我的大学课程文档",
   head:[
+    ['link', { rel: 'stylesheet', href: `${base}style.css` }],
     [
       'script', { type: 'text/javascript', src: 'https://www.eveningwater.com/static/plugin/viewer.min.js' },
     ],

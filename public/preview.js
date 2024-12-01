@@ -1,6 +1,6 @@
 
 const preview = (imgList) => {
-    const viewer = new ewViewer({ img: imgList })
+    const viewer = new ewViewer({ img: [...imgList] })
     imgList.forEach((item, index) => {
         item.onclick = function () {
             viewer.viewImage(index)
