@@ -23,7 +23,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2014-present eveningwater(夕水)'
+      copyright: 'Copyright © 2024-present eveningwater(夕水)'
     }
   }
 })
