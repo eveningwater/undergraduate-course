@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as _}from"./chunks/framework.CBi2-NG8.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/信息资源建设/信息资源管理相关概念.md","filePath":"docs/信息资源建设/信息资源管理相关概念.md"}'),a={name:"docs/信息资源建设/信息资源管理相关概念.md"};function o(s,c,r,n,d,p){return _(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
