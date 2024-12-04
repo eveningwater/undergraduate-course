@@ -8,7 +8,7 @@ export default defineConfig({
   outDir: './dist',
   title: "我的大学课程文档",
   description: "我的大学课程文档",
-  head:[
+  head: [
     ['link', { rel: 'stylesheet', href: `${base}style.css` }],
     [
       'script', { type: 'text/javascript', src: 'https://www.eveningwater.com/static/plugin/viewer.min.js' },
@@ -38,5 +38,11 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present eveningwater(夕水)'
     }
+  },
+  markdown: {
+    image: {
+      lazyLoading: true
+    },
+    math: true
   }
 })
